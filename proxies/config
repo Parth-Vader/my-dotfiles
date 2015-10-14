@@ -1,0 +1,9 @@
+ProxyCommand /usr/local/bin/corkscrew 10.3.100.207 8080 %h %p
+
+# fire up an immediate socks proxy
+Host socks
+ User <username>
+ HostName <ip>
+ IdentityFile /home/hunter/.ssh/id_rsa
+ DynamicForward 127.0.0.1:5555
+ RequestTTY no
