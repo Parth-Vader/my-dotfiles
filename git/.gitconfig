@@ -1,0 +1,6 @@
+[user]
+	email = vermaparth97@gmail.com
+	name = Parth-vader
+[http]
+[credential]
+	helper = cache --timeout 3600
